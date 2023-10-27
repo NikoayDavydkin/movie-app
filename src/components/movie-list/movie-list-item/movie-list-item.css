@@ -1,0 +1,104 @@
+.list-item {
+  display: flex;
+  justify-content: start;
+  height: 300px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+  position: relative;
+  width: 500px;
+}
+
+.list-item__img {
+  width: 185px;
+  height: 300px;
+}
+
+.list-item__img-box {
+  width: 185px;
+  height: 300px;
+}
+
+.list-item__content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.list-item__title {
+  font-family: "Inter UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 12px 0 7px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 220px;
+}
+
+.list-item__vote-average {
+  position: absolute;
+  right: 9px;
+  top: 12px;
+  width: 35px;
+  height: 35px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item__date {
+  color: #827e7e;
+  margin-bottom: 7px;
+}
+
+.list-item__genres {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 7px;
+  max-width: 265px;
+  overflow: hidden;
+}
+.list-item__text {
+  word-break: break-all;
+  margin-bottom: 14px;
+}
+
+.genre-btn {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  background: #fafafa;
+  padding: 2px 4px;
+}
+
+.low-color {
+  border-color: #e90000;
+}
+
+.below-middle-color {
+  border-color: #e97e00;
+}
+
+.above-middle-color {
+  border-color: #e9d100;
+}
+
+.high-color {
+  border-color: #66e900;
+}
+
+.ant-rate {
+  position: absolute !important;
+  bottom: 16px !important;
+  right: 16px !important;
+  font-size: 21px !important;
+}
